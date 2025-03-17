@@ -1,3 +1,4 @@
+export{};
 /*
 let number =5;
 number='a';
@@ -42,6 +43,8 @@ console.log(i);
  
  let j: [string,number,boolean]=['a',5,false]; // tipleri önceden belirliyorsun buna //tuple denir
 
+ //aşağıdaki enum yapısı js ye çok farklı bir şekilde derleniyor TypeScriptin önemini burada anlıyoruz TypeScript yazarak
+ //daha açık ve rahat bir kod geliştirebiliriz 
  enum Payment {kredi=0,havale=3,kapidaodeme=2,eft=4}; // Paymentin objeleri ve atanan değerleri
 
  let kredi=Payment.kredi;

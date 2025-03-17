@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /*
 let number =5;
 number='a';
@@ -36,6 +38,8 @@ console.log(i);
 //bir başka dosyadada var diyor  uyarı veriyor dikkatimi dağıtıyor o yüzden ts yi js ye derlesemde js deki dosyanın en üstüne
 // slash* ibaresi koyacağım maksat ts js ye çevrilirken neler değişiyor görmek  için js ye çevirmeye devam edicem..
 var j = ['a', 5, false]; // tipleri önceden belirliyorsun buna //tuple denir
+//aşağıdaki enum yapısı js ye çok farklı bir şekilde derleniyor TypeScriptin önemini burada anlıyoruz TypeScript yazarak
+//daha açık ve rahat bir kod geliştirebiliriz 
 var Payment;
 (function (Payment) {
     Payment[Payment["kredi"] = 0] = "kredi";
