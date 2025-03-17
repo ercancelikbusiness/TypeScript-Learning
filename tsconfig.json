@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5",                                  /* JavaScript dil sürümünü ES5 olarak ayarlayın, CommonJS ile uyumlu */
+    "module": "commonjs",                              /* CommonJS modülleri kullanın */
+    "esModuleInterop": true,                           /* CommonJS ve ES Modülleri arasındaki uyumu sağlamak için bu seçeneği etkinleştirin */
+    "forceConsistentCasingInFileNames": true,           /* Dosya isimlerindeki büyük/küçük harf uyumunu kontrol edin */
+    "skipLibCheck": true                               /* Kütüphane dosyalarının tip kontrolünü atlayın */
+  }
+}
