@@ -21,7 +21,7 @@ b=true;
 //bu arada node types.ts yaparsak öncesinde tsc types.ts yapmadıgımız yani js ye çevirmeden çıktıyı göremeyiz
 // çünkü node js ortamıdır. çıktıyı  doğrudan js çevirmeden typescript   çıktısını görmek için
 //npm install -g ts-node indirdikten sonra ts-node types.ts yazarak çıktıyı görebiliriz böylelikle js dosyası oluşmadan çıktıya ulaşırız..!
-//ama bunun iç,n uyumlu tsconfig.json ve package.json dosyalarına ihtiyacımız vardı onları yapay zeka yardımıyla oluşturduk şimdi
+//ama bunun için uyumlu tsconfig.json ve package.json dosyalarına ihtiyacımız vardı onları yapay zeka yardımıyla oluşturduk şimdi
 //direk  ts-node types.ts diyerek çıktımızı ts dosyamızı js ye çevirmeden görebiliriz
 
 let c:number = 5;
