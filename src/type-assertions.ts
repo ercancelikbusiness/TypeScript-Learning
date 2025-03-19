@@ -20,8 +20,13 @@ console.log(count1);
 
 let abc;
 abc='ercan';
-let c = (<string>abc).length;
+let c = (<string>abc).length; // abc nin tipini belirttik . koydugumuzda intelicense string bir değişkene göre fonksiyonları sıralar
 console.log(c);
+//alternatif yöntem
+let d = (abc as string).length; // burdada abc bir string demiş olduk
+//
+
+
 
 
 

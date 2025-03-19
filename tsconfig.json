@@ -6,7 +6,10 @@
     "esModuleInterop": true,                       
     "forceConsistentCasingInFileNames": true,      
     "skipLibCheck": true,                          
-    "strict": true,                                
+    "strict": true,      
+    "noImplicitAny": true,         // Tür belirtilmeden kullanılan her şeyi hata verir
+    "noUnusedLocals": true,        // Kullanılmayan yerel değişkenleri hata verir
+    "noUnusedParameters": true,    // Kullanılmayan fonksiyon parametrelerini hata verir                          
     "isolatedModules": true,
     "resolveJsonModule": true,                     
     "outDir": "./dist",                            
@@ -14,7 +17,7 @@
     "checkJs": true                                
   },
   "include": [
-    "src/**/*"                                      
+    "src/**/*"                                         
   ],
   "exclude": [
     "node_modules"                                 

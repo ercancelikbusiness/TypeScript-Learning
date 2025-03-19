@@ -1,0 +1,16 @@
+# Node.js bağımlılıkları
+node_modules/
+
+# TypeScript derlenmiş dosyalar
+dist/
+out/
+*.js
+*.js.map
+
+# Ortam değişkenleri
+.env
+
+# IDE ve geçici dosyalar
+.vscode/
+.idea/
+*.log
