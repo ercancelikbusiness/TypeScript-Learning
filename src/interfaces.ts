@@ -13,9 +13,11 @@ let deneme = (degisken:a) =>{}
 // aşağıda type kullandık ve deneme1 fonk paremetresindeki değişkene tür olarak atayabildik
 //çünkü TS yukarda a yı değişken kabul ediyor aşağıda abc yi ise tür kabul ediyor bu TS ile alakalı
 
+/*
 type abc= {x:string,y:number};
 
 let deneme1 = (degisken:abc) =>{}
+*/
 
 //aslında a yı  typeof ile türleştirebiliriz örn:
 
