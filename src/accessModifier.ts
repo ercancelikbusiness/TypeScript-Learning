@@ -19,13 +19,17 @@ interface Vehicle {
 
 class Taxi implements Vehicle {
 
-
+     //private location: Point;
+    //private renk: string;
+    //normalde yukardakiler açık olmalı ve connsturctorda this 'li yapı olmalı ama constructor paremetresinde  özetsel halletcez!
      
-    constructor(private location:Point ,private renk?:string)  // erişilmemesi için private kullanırsak 
-                                                               //hem vehiclede  bu değerleri silebilirsin hemde property  olarak bunları
-                                                                //yazmaya gerek kalmaz hemde this ile consda yazmaya gerek kalmaz.
-    {
-        this.renk=renk??"renk verilmedi" ;
+    constructor(private location:Point ,private renk?:string){  // paremetrede  private kullanırsak 
+                                                               //hem vehiclede  bu değerleri silebilirsin hemde bu sınıfta property  olarak 
+                                                                //yazmaya gerek kalmaz!  hemde this ile consda yazmaya gerek kalmaz.
+                                                                //yani paremetre kısmında bunu  halledebiliriz kod sadeleşir
+    
+        //this.location=location;
+        this.renk=renk??"renk verilmedi" ; // ? olmasa bu satırada gerek kalmazdı
     }
    
 
