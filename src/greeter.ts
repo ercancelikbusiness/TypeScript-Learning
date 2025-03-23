@@ -1,5 +1,5 @@
 export{};
-//burda temel mantığı anlamaya çalıştık tam olarak ts kodları yazmadık.
+//burda temel mantığı anlamaya çalıştık 
 //öncelikle her dosya aynı global scope'da çalıştığı için her konu için ayrı ts uzantılı dosya açtığında her dosyadaki değişkenler
 //birbirinden farklı olmak zorunda çünkü çakışma yapcak bunun çözümü için her dosya başına export{} diyebilrsin 
 //bu dosyayı modül yapar ve global olmaktan çıkarır boş bile olsa bunu yapabilirsin..yada yada tsconfig dosyasına gerekli birkaç

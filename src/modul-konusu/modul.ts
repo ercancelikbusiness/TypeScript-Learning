@@ -1,3 +1,4 @@
+//bu konuda tüm interface veya sınıfları ayrı ayrı modülüze ederek import export ederek kullanmayı öğreneceğiz...
 
 import { Taxi } from "./taxi";     // export olan class'ımızı buraya import ettik ./ aynı dizindeki anlamına gelir
 
