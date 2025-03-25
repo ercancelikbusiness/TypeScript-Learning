@@ -1,3 +1,5 @@
+//son olarak uygulamamızı çalıştıracağımız app.ts dosyamızı oluşturduk
+
 import { Product } from "./product";
 import { ProductManager } from "./productManager";
 
