@@ -1,3 +1,4 @@
+//uygulamamızda 4. sırada yapay veritabanı mızı oluşturduk
 // bu dosyayı veritabanı (database) simüle ettiğimiz bir yapı olarak düşünelim 
 /*   aşağıda array oluşturmak için 2 farklı yöntem oldupunu gösterelim
 this.products = new Array<Product>(); // Boş bir Product dizisi
@@ -6,7 +7,7 @@ this.products = []; // Boş bir dizi
 this.products = [
     new Product(1, "Samsung S10", "Telefon", 1000),
  ]; 
-
+//
  // */
  //// bu sınıf new lendiğinde  new SimpleDataSource(); bu sınıfın constructoru  çalışır ve private products içine ürünler geçer. 
 // // burada database simüle ettiğimiz için böyle yaptık
@@ -33,5 +34,5 @@ export class SimpleDataSource{
     getProducts():Product[] {   
         return this.products;
     }
-    
+
 }

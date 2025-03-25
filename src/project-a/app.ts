@@ -4,6 +4,9 @@ import { ProductManager } from "./productManager";
 
 let _productManager =new ProductManager;
 
+
+
+
 let result;
 
 result = _productManager.getProducts();

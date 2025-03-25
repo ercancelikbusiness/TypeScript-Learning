@@ -1,3 +1,4 @@
+//uygulamamış için 2. olarak service katmanımızı oluşturduk...
 //dosya ismimi product-service.ts olsa daha iyi olabilirdi  genel kanı bu yönde
 // interfacelerde c# toplulugu genelde  dosya isimlerini I ile başlatsada yazmaya gerek yoktur.
 
