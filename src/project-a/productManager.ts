@@ -32,7 +32,8 @@ export class ProductManager implements ProductService{   // ProductManager üzer
     }
 
     getById(id: number): Product {
-        return this.products.filter(p=>p.id===id)[0]; //burdaki 0  filter dizi formatından geliyor araştır. 
+        return this.products.filter(p=>p.id===id)[0]; //burdaki 0  filter dizi formatından geliyor araştır.  aslında burda filter yerine find
+                                                      // metodu kullanılmalı o zaman [0] kullanmaya gerek kalmazdı
         
     }
     getProducts(): Product[] {
