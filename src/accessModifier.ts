@@ -41,8 +41,8 @@ class Taxi implements Vehicle {
    
 }
 
-let taxi_1 = new Taxi({x:5,y:4});
-taxi_1.travelTo({x:22,y:32})
+let taxi_1 = new Taxi({x:5,y:4}); //consturctordaki location belirtiliyor
+taxi_1.travelTo({x:22,y:32})// yukarda location belirlenmişti bu travelTo nun point adresi unutma! yani 5,4 den 22,32 ye gidiyor şekli,nde
 
 
 
